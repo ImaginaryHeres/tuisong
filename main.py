@@ -175,5 +175,5 @@ if __name__ == "__main__":
 
     # 公众号推送消息
     for user in users:
-        send_message(user,  region, temp, note_ch, note_en)
+        send_message(user,  region, temp)
     os.system("pause")
