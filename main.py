@@ -172,8 +172,7 @@ if __name__ == "__main__":
     # 接收的用户
     users = config["user"]
     
-        # 获取词霸每日金句
-        note_ch, note_en = get_ciba()
+
     # 公众号推送消息
     for user in users:
         send_message(user, accessToken, region, weather, temp, wind_dir, note_ch, note_en)
