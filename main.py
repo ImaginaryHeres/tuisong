@@ -168,8 +168,7 @@ if __name__ == "__main__":
         os.system("pause")
         sys.exit(1)
  
-    # 获取accessToken
-    accessToken = get_access_token()
+
     # 接收的用户
     users = config["user"]
     # 传入地区获取天气信息
